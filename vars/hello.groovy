@@ -1,7 +1,3 @@
-def hello(name)
-{
-echo "hi ${name} how are you"
+def call(name){
+  echo "Hi, ${name}, How are you?"
 }
-
-
-
