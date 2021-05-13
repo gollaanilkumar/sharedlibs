@@ -8,3 +8,4 @@ def call(cred_id,user,ip)
     ssh "${user}@${ip} /opt/tomcat8/bin/startup.sh"
     echo "deployed to tomcat"
 }
+}
